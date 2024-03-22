@@ -10,7 +10,7 @@ function Header() {
       <nav>
         <ul>
           <li><img src={require('./images/BUlogo.png')}/></li>
-          <li><Link to="/">Home</Link></li>
+          <li><Link to="/ec464-website">Home</Link></li>
           <li><Link to="/firenet">FireNet</Link></li>
           <li><Link to="/BinaryClassifier">BinaryClassifier</Link></li>
           <li><Link to="/forestdata">ForestData</Link></li>

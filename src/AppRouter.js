@@ -16,7 +16,7 @@ const AppRouter = () => {
                     <nav>
                         <ul>
                             <li>
-                                <Link to="/">Home</Link>
+                                <Link to="/ec464-website">Home</Link>
                             </li>
                             <li>
                                 <Link to="/firenet">FireNet</Link>
@@ -36,7 +36,7 @@ const AppRouter = () => {
 
                 <Routes>
                     <Route path="/about" element={<About />} />
-                    <Route path="/" element={<Home />} />
+                    <Route path="/ec464-website" element={<Home />} />
                     <Route path="/firenet" element={<FireNet />} />
                     <Route path="/BinaryClassifier" element={<BinaryClassifier />} />
                     <Route path="/forestdata" element={<ForestData />} />
