@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import AppRouter from './AppRouter';
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
         </a>
       </header>
     </div>
-  );
+);
 }
 
 export default App;
