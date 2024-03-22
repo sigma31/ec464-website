@@ -1,0 +1,29 @@
+/* Header.css */
+
+header {
+    background-color: #333; /* Dark background color */
+    padding: 10px 0; /* Add padding to the header */
+  }
+  
+  nav ul {
+    list-style-type: none; /* Remove default list styles */
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 20px; /* Add spacing between list items */
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0; /* Remove margin from last list item */
+  }
+  
+  nav ul li a {
+    color: #fff; /* Text color */
+    font-size: 24px; /* Font size */
+    font-family: 'Simplifica', sans-serif; /* Use Simplifica font */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
