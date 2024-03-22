@@ -4,14 +4,15 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './components/Home';
 import About from './components/About';
 import FireNet from './components/FireNet.js';
-import BinaryClass from './components/BinaryClass.js';
+import BinaryClassifier from './components/BinaryClassifier.js';
 import ForestData from './components/ForestData.js';
+import Header from './Header';
 
 const AppRouter = () => {
     return (
         <Router>
             <div>
-                <header>
+                <Header>
                     <nav>
                         <ul>
                             <li>
@@ -21,23 +22,23 @@ const AppRouter = () => {
                                 <Link to="/firenet">FireNet</Link>
                             </li>
                             <li>
-                                <Link to="/binaryclass">BinaryClass</Link>
+                                <Link to="/BinaryClassifier">BinaryClassifier</Link>
                             </li>
                             <li>
-                                <Link to="/forests">ForestData</Link>
+                                <Link to="/forestdata">ForestData</Link>
                             </li>
                             <li>
                                 <Link to="/about">About</Link>
                             </li>
                         </ul>
                     </nav>
-                </header>
+                </Header>
 
                 <Routes>
                     <Route path="/about" element={<About />} />
                     <Route path="/" element={<Home />} />
                     <Route path="/firenet" element={<FireNet />} />
-                    <Route path="/binaryclass" element={<BinaryClass />} />
+                    <Route path="/BinaryClassifier" element={<BinaryClassifier />} />
                     <Route path="/forestdata" element={<ForestData />} />
                 </Routes>
             </div>

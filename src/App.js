@@ -1,5 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './styles/App.css';
 import AppRouter from './AppRouter';
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <AppRouter />
     </div>
-);
+  );
 }
 
 export default App;

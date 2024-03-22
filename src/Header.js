@@ -2,18 +2,20 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Header.css'; // Import CSS file for styling
+import './styles/Header.css';
 
 function Header() {
   return (
     <header>
       <nav>
         <ul>
+          <li><img src={require('./images/BUlogo.png')}/></li>
           <li><Link to="/">Home</Link></li>
           <li><Link to="/firenet">FireNet</Link></li>
-          <li><Link to="/binaryclass">BinaryClass</Link></li>
-          <li><Link to="/forests">ForestData</Link></li>
+          <li><Link to="/BinaryClassifier">BinaryClassifier</Link></li>
+          <li><Link to="/forestdata">ForestData</Link></li>
           <li><Link to="/about">About</Link></li>
+          <li><img src={require('./images/dryad.webp')}/></li>
         </ul>
       </nav>
     </header>
