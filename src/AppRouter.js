@@ -27,7 +27,7 @@ const AppRouter = () => {
                                 <Link to="/forestdata">FireDataUS</Link>
                             </li>
                             <li>
-                                <Link to="/for_react">About</Link>
+                                <Link to="/About">About</Link>
                             </li>
                         </ul>
                     </nav>
