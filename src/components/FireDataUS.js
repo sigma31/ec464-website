@@ -35,7 +35,7 @@ const FireDataUS = () => {
             <div>
             <h2 style={subheadingStyle}>The Data:</h2>
                 <p style={paragraphStyle}>
-                    The FireData US model is based on data from the Department of Agriculture. The data, which can be found <a href="https://www.fs.usda.gov/rds/archive/catalog/RDS-2013-0009.6" target="_blank" rel="noopener noreferrer">here</a>, come from the Research Data Archive. --CITE IN REFERENCES--.<br />
+                    The FireData US model is based on data from the Department of Agriculture. The data, which can be found <a href="https://www.fs.usda.gov/rds/archive/catalog/RDS-2013-0009.6" target="_blank" rel="noopener noreferrer">here</a>, come from the Research Data Archive.<br />
                     The following data fields extracted:
                 <ul style={listStyle}>
                     <li>FIRE_SIZE - The estimate of acres within the final perimeter of the fire</li>

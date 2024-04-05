@@ -99,7 +99,7 @@ const BinaryClassifier = () => {
                 <img src={require('../images/binaryclassifier_conf_matrix.png')}></img>
                 <div>
                 <p style={paragraphStyle}>The Google Colaboratory can be found here:</p><br/>
-                <a href="https://colab.research.google.com/drive/11cEKAp3f5UPXpMqHWRtgmoDjsUD0zuDM?usp=sharing" target="_blank" rel="noopener noreferrer">FireData US</a>
+                <a href="https://colab.research.google.com/drive/11cEKAp3f5UPXpMqHWRtgmoDjsUD0zuDM?usp=sharing" target="_blank" rel="noopener noreferrer">Binary Classifier</a>
             </div>
             </div>
             
