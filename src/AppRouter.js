@@ -4,7 +4,7 @@ import Home from './components/Home';
 import About from './components/About';
 import FireNet from './components/FireNet.js';
 import BinaryClassifier from './components/BinaryClassifier.js';
-import ForestData from './components/ForestData.js';
+import FireDataUS from './components/FireDataUS.js';
 import Header from './Header';
 
 const AppRouter = () => {
