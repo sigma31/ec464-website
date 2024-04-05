@@ -48,6 +48,7 @@ const BinaryClassifier = () => {
                     <li>Zoom Range: Random zooming is performed on the images (up to 20%), allowing the model to learn features at different scales.</li>
                     <li>Rescaling: Image pixel values are rescaled to the range [0, 1] to facilitate convergence during training and improve numerical stability.</li>
                 </ul>
+                <img src={require('../images/binaryclassifier_image_augmentation.png')}></img>
             </div>
                 <h2 style={subheadingStyle}>Model Architecture:</h2>
             <div>
@@ -92,6 +93,10 @@ const BinaryClassifier = () => {
                 <p style={paragraphStyle}>
                     In conclusion, the integration of focal loss within the Binary Classifier model represents a proactive approach to address class imbalance issues commonly encountered in fire detection tasks. By dynamically adjusting the loss function based on the difficulty of classification, the model demonstrates enhanced robustness and reliability in identifying fire incidents, contributing to more effective disaster management and response strategies.
                 </p>
+                <p style={paragraphStyle}>
+                    The confusion matrix generated for the model is shown below:
+                </p>
+                <img src={require('../images/binaryclassifier_conf_matrix.png')}></img>
                 <div>
                 <p style={paragraphStyle}>The Google Colaboratory can be found here:</p><br/>
                 <a href="https://colab.research.google.com/drive/11cEKAp3f5UPXpMqHWRtgmoDjsUD0zuDM?usp=sharing" target="_blank" rel="noopener noreferrer">FireData US</a>
