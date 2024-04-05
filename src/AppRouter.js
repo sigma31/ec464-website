@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom'; // Corrected import
+import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom'; 
 import Home from './components/Home';
 import About from './components/DataSourcesOverview.js';
 import FireNet from './components/FireNet.js';
@@ -15,7 +15,7 @@ const AppRouter = () => {
                     <nav>
                         <ul>
                             <li>
-                                <Link to="/ec464-website">Home</Link>
+                                <Link to="/">Home</Link>
                             </li>
                             <li>
                                 <Link to="/firenet">FireNet</Link>
@@ -35,7 +35,7 @@ const AppRouter = () => {
 
                 <Routes>
                     <Route path="/about" element={<About />} />
-                    <Route path="/ec464-website" element={<Home />} />
+                    <Route path="/" element={<Home />} />
                     <Route path="/firenet" element={<FireNet />} />
                     <Route path="/BinaryClassifier" element={<BinaryClassifier />} />
                     <Route path="/forestdata" element={<FireDataUS />} />
