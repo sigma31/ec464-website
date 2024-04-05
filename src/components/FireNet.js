@@ -37,13 +37,12 @@ const FireNet = () => {
 
     return (
         <div style={containerStyle}>
-            <h1 style={headingStyle}>FireNet</h1>
+            <h1 style={headingStyle}>FireNet Model</h1>
                 <h2 style={subheadingStyle}>Overview:</h2>
                 <p style={paragraphStyle}>
                     FireNet is neural network that is lightweight enough to be deployed on embedded platforms such as Rasberry Pi. It balances both high performance and compact model sizes, addressing a common trade-off. 
                 </p>
                 <h2 style={subheadingStyle}>Model Architechture:</h2>
-                <img src ={FireNet_architecture} alt="FireNet Architecture" width="397" height="562"></img>
                 <p style={paragraphStyle}>
                     <li>Conv2D: Convolutional layers used for feature extraction from images. Each layer uses a different number of filters (16, 32, 64)</li>
                     <li>AveragePooling2D: Pooling layers that downsample the feature maps to reduce their dimensions</li>
@@ -51,6 +50,7 @@ const FireNet = () => {
                     <li>Flatten: Converts the 2D feature maps produced by convolutional and pooling layers into a 1D vector</li>
                     <li>Dense: Fully connected layers, where the final layer has 2 outputs (Fire, NoFire)</li>
                 </p>
+                <img src ={FireNet_architecture} alt="FireNet Architecture" width="397" height="562"></img>
                 <h2 style={subheadingStyle}>Results:</h2>
                 <p style={paragraphStyle}>
                     Data sets used:      
