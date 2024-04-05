@@ -54,8 +54,8 @@ const Home = () => {
                 </p>
                 <h2 style={subheadingStyle}>Learn More:</h2>
                 <p style={paragraphStyle}>
-                Discover the forefront of wildfire detection technology with our <a href="/firenet#/firenet">FireNet</a>, 
-                <space> </space><a href="/#/BinaryClassifier">Binary Classifier</a>, and <a href="/#/forestdata">FireDataUS</a> models.
+                Discover the forefront of wildfire detection technology with our <a href="/ec464-website/#/firenet">FireNet</a>, 
+                <space> </space><a href="/ec464-website/#/BinaryClassifier">Binary Classifier</a>, and <a href="/ec464-website/#/forestdata">FireDataUS</a> models.
                 Explore how our innovative approach is reshaping early detection methods. Take the initiative in advancing wildfire 
                 management strategies by immersing yourself in our research today.
                 </p>
