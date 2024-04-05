@@ -92,7 +92,12 @@ const BinaryClassifier = () => {
                 <p style={paragraphStyle}>
                     In conclusion, the integration of focal loss within the Binary Classifier model represents a proactive approach to address class imbalance issues commonly encountered in fire detection tasks. By dynamically adjusting the loss function based on the difficulty of classification, the model demonstrates enhanced robustness and reliability in identifying fire incidents, contributing to more effective disaster management and response strategies.
                 </p>
+                <div>
+                <p style={paragraphStyle}>The Google Colaboratory can be found here:</p><br/>
+                <a href="https://colab.research.google.com/drive/11cEKAp3f5UPXpMqHWRtgmoDjsUD0zuDM?usp=sharing" target="_blank" rel="noopener noreferrer">FireData US</a>
             </div>
+            </div>
+            
     );
 }
 
