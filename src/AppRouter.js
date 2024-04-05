@@ -1,7 +1,7 @@
 import React from 'react';
 import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom'; // Corrected import
 import Home from './components/Home';
-import About from './components/for_react.jsx';
+import About from './components/DataSourcesOverview.js';
 import FireNet from './components/FireNet.js';
 import BinaryClassifier from './components/BinaryClassifier.js';
 import FireDataUS from './components/FireDataUS.js';
