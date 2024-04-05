@@ -46,7 +46,7 @@ const DataSourcesOverview = () => {
             <td></td>
             <td>Open Access</td>
             <td>Used in FireNet model</td>
-            <td><a href="https://drive.google.com/drive/folders/1HznoBF...">Visit</a></td>
+            <td><a href="https://drive.google.com/drive/folders/1HznoBFEd6yjaLFlSmkUGARwCUzzG4whq">Visit</a></td>
           </tr>
           <tr>
             <td>FIRE Dataset</td>
@@ -55,7 +55,7 @@ const DataSourcesOverview = () => {
             <td></td>
             <td>Open Access</td>
             <td></td>
-            <td><a href="https://www.kaggle.com/datasets/phylake1337/fi...">Visit</a></td>
+            <td><a href="https://www.kaggle.com/datasets/phylake1337/fire-dataset">Visit</a></td>
           </tr>
           <tr>
             <td>Smoke Detection Dataset</td>
@@ -64,7 +64,7 @@ const DataSourcesOverview = () => {
             <td>Diverse environments (indoor, outdoor, various conditions)</td>
             <td>Open Access</td>
             <td></td>
-            <td><a href="https://www.kaggle.com/datasets/deepcontractor...">Visit</a></td>
+            <td><a href="https://www.kaggle.com/datasets/deepcontractor/smoke-detection-dataset?resource=download">Visit</a></td>
           </tr>
           <tr>
             <td>Past Fire Data</td>
@@ -73,7 +73,7 @@ const DataSourcesOverview = () => {
             <td>United States, 1992-2020</td>
             <td>Open Access</td>
             <td></td>
-            <td><a href="https://www.fs.usda.gov/rds/archive/catalog/RD...">Visit</a></td>
+            <td><a href="https://www.fs.usda.gov/rds/archive/catalog/RDS-2013-0009.6">Visit</a></td>
           </tr>
           <tr>
             <td>Forest Fires</td>
@@ -82,7 +82,7 @@ const DataSourcesOverview = () => {
             <td>Montesinho park in Portugal</td>
             <td>Open Access</td>
             <td></td>
-            <td><a href="https://archive.ics.uci.edu/dataset/162/forest...">Visit</a></td>
+            <td><a href="https://archive.ics.uci.edu/dataset/162/forest+fires">Visit</a></td>
           </tr>
           <tr>
             <td>Fire Detection From Images</td>
