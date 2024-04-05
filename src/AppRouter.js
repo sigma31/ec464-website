@@ -24,7 +24,7 @@ const AppRouter = () => {
                                 <Link to="/BinaryClassifier">BinaryClassifier</Link>
                             </li>
                             <li>
-                                <Link to="/forestdata">ForestData</Link>
+                                <Link to="/forestdata">FireDataUS</Link>
                             </li>
                             <li>
                                 <Link to="/about">About</Link>
@@ -38,7 +38,7 @@ const AppRouter = () => {
                     <Route path="/ec464-website" element={<Home />} />
                     <Route path="/firenet" element={<FireNet />} />
                     <Route path="/BinaryClassifier" element={<BinaryClassifier />} />
-                    <Route path="/forestdata" element={<ForestData />} />
+                    <Route path="/forestdata" element={<FireDataUS />} />
                 </Routes>
             </div>
         </Router>
