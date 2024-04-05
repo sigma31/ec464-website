@@ -1,4 +1,7 @@
 import React from 'react';
+import FireNet_architecture from '../images/FireNet_architecture.png';
+import FireNet_results from '../images/FireNet_result.png';
+
 
 const FireNet = () => {
     const containerStyle = {
@@ -40,7 +43,7 @@ const FireNet = () => {
                     FireNet is neural network that is lightweight enough to be deployed on embedded platforms such as Rasberry Pi. It balances both high performance and compact model sizes, addressing a common trade-off. 
                 </p>
                 <h2 style={subheadingStyle}>Model Architechture:</h2>
-                <img src ={requestAnimationFrame('../images/FireNet_architecture.png')} ></img>
+                <img src ={FireNet_architecture} alt="FireNet Architecture" width="397" height="562"></img>
                 <p style={paragraphStyle}>
                     <li>Conv2D: Convolutional layers used for feature extraction from images. Each layer uses a different number of filters (16, 32, 64)</li>
                     <li>AveragePooling2D: Pooling layers that downsample the feature maps to reduce their dimensions</li>
@@ -66,7 +69,7 @@ const FireNet = () => {
                     <li>F-Measure: The harmonic mean of Precision and Recall.</li>
                     <li>Accuracy: The percentage of samples correctly predicted by the model.</li>
                 </ul>
-                <img src ={requestAnimationFrame('../images/FireNet_result.png')} ></img>        
+                <img src ={FireNet_results} alt="FireNet Results" width="632" height="256"></img>
                 <h2 style={subheadingStyle}>Conclusion:</h2>
                 <p style={paragraphStyle}>
                 Across the datasets, the model shows high precision in predicting fire, except for Dataset 3, Forest Fire Images, not being able to reach the 70% threshold on recall and F-measure. Some of the ways these metrics could be improved are through threshold tuning and cost-sensitive learning, along with an in-depth analysis of Dataset 3. Future work should focus on exploring other complex architecture, data augmentation, and training strategies. Overall, adapting to diverse data characteristics and extending the model's applicability to broader scenarios can further improve this model.
