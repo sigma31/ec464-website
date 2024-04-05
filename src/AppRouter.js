@@ -1,7 +1,7 @@
 import React from 'react';
 import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom'; // Corrected import
 import Home from './components/Home';
-import About from './components/About';
+import About from './components/for_react.jsx';
 import FireNet from './components/FireNet.js';
 import BinaryClassifier from './components/BinaryClassifier.js';
 import FireDataUS from './components/FireDataUS.js';
@@ -27,7 +27,7 @@ const AppRouter = () => {
                                 <Link to="/forestdata">FireDataUS</Link>
                             </li>
                             <li>
-                                <Link to="/about">About</Link>
+                                <Link to="/for_react">About</Link>
                             </li>
                         </ul>
                     </nav>
