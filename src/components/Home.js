@@ -1,13 +1,13 @@
 import React from 'react';
-import '../styles/HomeStyle.css'; // Import the CSS file with the new styles
+import '../styles/HomeStyle.css';
 
 const Home = () => {
     return (
-        <div className="pageWrapper"> {/* Wrapper for the entire page */}
-            <div className="containerStyle"> {/* Container for the entire page */}
+        <div className="pageWrapper"> 
+            <div className="containerStyle"> 
                 <h1 className="headingStyle">Welcome to Team 1: Dryad Networks Early Wildfire Detection</h1>
-                <div className="sideBySideContainer"> {/* Container for side-by-side sections */}
-                    <div className="section"> {/* Section 1: Summary */}
+                <div className="sideBySideContainer"> 
+                    <div className="section"> 
                         <h2 className="subheadingStyle">Summary:</h2>
                         <p className="paragraphStyle">
                             Dryad Networks aims to improve their AI and IoT-based forest fire prevention and detection system.
@@ -19,7 +19,7 @@ const Home = () => {
                             using innovative technology to aid global wildfire prevention.
                         </p>
                     </div>
-                    <div className="section"> {/* Section 2: Problem Statement */}
+                    <div className="section"> 
                         <h2 className="subheadingStyle">Problem Statement:</h2>
                         <p className="paragraphStyle">
                             The escalating threat of wildfires is undeniable, contributing up to 20% of global CO2 emissions and fueling a
@@ -32,8 +32,8 @@ const Home = () => {
                         </p>
                     </div>
                 </div>
-                <div className="sideBySideContainer"> {/* Container for side-by-side sections */}
-                <div className="section"> {/* Section 3: Learn More */}
+                <div className="sideBySideContainer">
+                <div className="section">
                     <h2 className="subheadingStyle">Learn More:</h2>
                     <p className="paragraphStyle">
                         Discover the forefront of wildfire detection technology with our <a href="/ec464-website/#/firenet">FireNet</a>,
@@ -42,7 +42,7 @@ const Home = () => {
                         management strategies by immersing yourself in our research today.
                     </p>
                 </div>
-                <div className="section"> {/* Section 4: Team Members */}
+                <div className="section">
                     <h2 className="subheadingStyle">Team Members:</h2>
                     <p className="paragraphStyle">
                         Rishav De       |  rishavde@bu.edu <br></br>
@@ -54,7 +54,7 @@ const Home = () => {
                 </div>
                 </div>
             </div>
-            <div className="gradientBackground" /> {/* Gradient background behind the entire page */}
+            <div className="imageBackground" />
         </div>
     );
 }

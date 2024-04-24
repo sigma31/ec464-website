@@ -19,6 +19,14 @@
     color: #191516; /* Dark brown */
 }
 
+.listStyle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #191516; /* Dark brown */
+    text-align: left;
+    line-height: 1.5;
+}
+
 /* Wrapper for the entire page */
 .pageWrapper {
     position: relative;
@@ -44,16 +52,39 @@
     margin-top: 10px;
 }
 
+.bigContainer {
+    border: solid;
+    border-color: black;
+    border-radius: 400px;
+    margin: 20px auto;
+    width: auto;
+}
+
 /* Background Formatting for each section */
 .section {
-    flex: 1; /* Expand to fill available space */
-    border-radius: 50px; /* Rounded corners for each section */
-    overflow: hidden; /* Hide overflow from gradient background */
+    border-radius: 50px; 
+    overflow: hidden; 
     background-color: aliceblue;
     padding: 20px;
-    margin: 20px;
+    margin: 20px auto;
     width: auto;
+    max-width: 800px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.titleSection {
+    border-radius: 50px; 
+    overflow: hidden; 
+    background-color: aliceblue;
+    width: auto;
+    margin: 0 auto;
+    margin-bottom: -20px;
+    max-width: 100px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.extraSpace {
+    margin-bottom: 40px; /* Add extra margin at the bottom */
 }
 
 /* Gradient background behind the entire page */
@@ -65,4 +96,14 @@
     height: 100%;
     background: linear-gradient(135deg, #044B7F, #610345); /* Gradient background */
     opacity: 0.4; /* Adjust opacity as needed */
+}
+
+.imageBackground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(C:\Code\ec464-website\src\images\ForestBack.webp);
+    background-size: cover;
 }
