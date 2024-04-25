@@ -15,6 +15,10 @@
     margin-top: 4px;
 }
 
+h3.subheadingStyle {
+    font-size: 20px;
+}
+
 .paragraphStyle {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
