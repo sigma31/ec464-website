@@ -102,7 +102,17 @@ Once the notebook has been uploaded the datasets must be put into the appropriat
 
 ### Website
 
-The source code for the website is located in the 'master' branch.
+The source code for the website is located in the `master` branch. 
+
+The steps to set up the project are detailed below (This assumes you have npm installed. If you do not then find the npm installation guide [here](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
+
+1. Clone the GitHub repository.
+2. Navigate to the local instance of the repository.
+3. Use the command `git checkout master` to switch into the master repository.
+4. Run `npm install` in order to download all the dependencies.
+5. To begin the project in development mode run `npm start`
+
+In order to deploy the website using GitHub pages you can simply run the `npm run deploy` command and that will automatically run a script to deploy the website.
 
 
 
