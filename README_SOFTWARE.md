@@ -79,6 +79,7 @@ The routing is handled using a HashRouter to enable routing within a single-page
 
 ## Configuration
 
+### Machine Learning Models
 Using the models requires you to utilize [Google Colaboratory](https://colab.research.google.com/).
 
 The ipynb files for each model are provided in the GitHub repository. These can be downloaded and then uploaded to Google Colaboratory using the upload feature. 
@@ -99,6 +100,9 @@ Once the notebook has been uploaded the datasets must be put into the appropriat
 3. FireData US Model: 
 	- Place data in /drive/MyDrive/Assignments/FPA_FOD_20221014.sqlite - [https://www.fs.usda.gov/rds/archive/products/RDS-2013-0009.6/RDS-2013-0009.6_Data_Format4_SQLITE.zip](https://www.fs.usda.gov/rds/archive/products/RDS-2013-0009.6/RDS-2013-0009.6_Data_Format4_SQLITE.zip)
 
+### Website
+
+The source code for the website is located in the 'master' branch.
 
 
 
