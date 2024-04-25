@@ -67,12 +67,12 @@ The website was created using the Javascript programming language and the React 
 
 The application consists of the following pages:
 
-** Home page (Home component)
-** About page (DataSourcesOverview component)
-** FireNet page (FireNet component)
-** BinaryClassifier page (BinaryClassifier component)
-** FireDataUS page (FireDataUS component)
-** Navigation between these pages is facilitated using Link components wrapped in a nav element within the Header component. Each Link corresponds to a specific route defined in the AppRouter.
+* Home page (Home component)
+* About page (DataSourcesOverview component)
+* FireNet page (FireNet component)
+* BinaryClassifier page (BinaryClassifier component)
+* FireDataUS page (FireDataUS component)
+* Navigation between these pages is facilitated using Link components wrapped in a nav element within the Header component. Each Link corresponds to a specific route defined in the AppRouter.
 
 The routing is handled using a HashRouter to enable routing within a single-page application without the need for server-side configuration.
 
