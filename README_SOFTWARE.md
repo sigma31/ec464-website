@@ -79,6 +79,17 @@ The routing is handled using a HashRouter to enable routing within a single-page
 
 ## Configuration
 
+1. Binary Classification Model:  
+	- Place data in /content/drive/MyDrive/FireImageData.zip - https://www.kaggle.com/datasets/phylake1337/fire-dataset 
+	- Place data in /content/drive/MyDrive/TrainingDataset.zip - https://drive.google.com/file/d/165fUt_SiS50syL8QtdON50D_uyudcsrW/view?usp=drive_link 
+    
+2. FireNet Model: 
+	- Place data in /content/drive/My Drive/fire_dataset_kaggle - [https://www.kaggle.com/datasets/phylake1337/fire-dataset](https://www.kaggle.com/datasets/phylake1337/fire-dataset)
+	- Place data in /content/drive/My Drive/fire_images_dataset/test - [https://www.kaggle.com/datasets/rachadlakis/firedataset-jpg-224](https://www.kaggle.com/datasets/rachadlakis/firedataset-jpg-224)
+	- Place data in /content/drive/My Drive/forest_fire_images/Test_Data - [https://www.kaggle.com/datasets/mohnishsaiprasad/forest-fire-images](https://www.kaggle.com/datasets/mohnishsaiprasad/forest-fire-images)
+
+3. FireData US Model: 
+	- Place data in /drive/MyDrive/Assignments/FPA_FOD_20221014.sqlite - [https://www.fs.usda.gov/rds/archive/products/RDS-2013-0009.6/RDS-2013-0009.6_Data_Format4_SQLITE.zip](https://www.fs.usda.gov/rds/archive/products/RDS-2013-0009.6/RDS-2013-0009.6_Data_Format4_SQLITE.zip)
 
 
 
