@@ -63,6 +63,18 @@ The website was created using the Javascript programming language and the React 
 * BinaryClassifier.js - This represents a page dedicated to explaining the binary classifier model designed for fire detection in image data. The component renders a container with sections containing headings, paragraphs, lists, and an image depicting image augmentation techniques. The content is styled using inline JavaScript objects for consistent formatting and readability.
 * FireDataUS.js - This represents a page dedicated to explaining the FireData US model. The component renders a container with sections containing headings, paragraphs, lists, and images depicting data breakdown and model outcomes. Inline JavaScript objects are used for styling to ensure consistent formatting and readability.
 * DataSourceOverview.js - This represents a page providing an overview of various data sources used in the project. The component renders a table with columns for different attributes of the data sources, such as name, type, format, coverage, accessibility, notes, and URL. Inline CSS is used to style the table for consistent formatting and readability.
+* AppRouter.js - The AppRouter component defines routes for different pages of the application using the Routes and Route components. Each route specifies a path and the corresponding component to render when that path is matched.
+
+The application consists of the following pages:
+
+** Home page (Home component)
+** About page (DataSourcesOverview component)
+** FireNet page (FireNet component)
+** BinaryClassifier page (BinaryClassifier component)
+** FireDataUS page (FireDataUS component)
+** Navigation between these pages is facilitated using Link components wrapped in a nav element within the Header component. Each Link corresponds to a specific route defined in the AppRouter.
+
+The routing is handled using a HashRouter to enable routing within a single-page application without the need for server-side configuration.
 
 
 
