@@ -32,6 +32,9 @@ const Home = () => {
                         </p>
                     </div>
                 </div>
+
+                <div className="extraSpace"></div>
+
                 <div className="sideBySideContainer">
                 <div className="section">
                     <h2 className="subheadingStyle">Learn More:</h2>
@@ -54,7 +57,10 @@ const Home = () => {
                 </div>
                 </div>
             </div>
-            <div className="imageBackground" />
+            <div className="extraSpace"></div>
+            <p> _ </p>
+            <div className="extraSpace"></div>
+            <div className="imageBackground"/>
         </div>
     );
 }

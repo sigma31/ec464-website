@@ -5,19 +5,12 @@ import '../styles/HomeStyle.css';
 
 const FireNet = () => {
 
-    const paragraphStyle = {
-        fontSize: '16px',
-        color: '#555',
-        marginTop: '10px',
-        textAlign: 'left',
-    };
-
     return (
         <div className="pageWrapper">
             <div className="containerStyle"> 
                 <h1 className="headingStyle">FireNet Model</h1>
                 <div className="section"> 
-                        <h2 className="subheadingStyle">Overview:</h2>
+                        <h2 className="subheadingStyle">Overview</h2>
                 <p className="paragraphStyle" >
                     FireNet is neural network that is lightweight enough to be deployed on embedded platforms such as Rasberry Pi. It balances both high performance and compact model sizes, addressing a common trade-off. 
                 </p>
@@ -25,9 +18,10 @@ const FireNet = () => {
 
                 <div className="extraSpace"></div>
 
+                <div className="bigSection">
+                <h2 className="subheadingStyle">Model Architecture</h2>
                 <div className="sideBySideContainer">
                 <div className="section">
-                <h2 className="subheadingStyle">Model Architecture:</h2>
                     <p className="listStyle">
                         <li>Conv2D: Convolutional layers used for feature extraction from images. Each layer uses a different number of filters (16, 32, 64)</li>
                         <p></p>
@@ -44,12 +38,12 @@ const FireNet = () => {
                     <img src ={FireNet_architecture} alt="FireNet Architecture" width="397" height="562"></img>
                 </div>
                 </div>
+                </div>
 
                 <div className="extraSpace"></div>
 
-                <div className="titleSection">
-                    <h2 className="subheadingStyle">Results:</h2>
-                </div>
+                <div className="bigSection">
+                    <h2 className="subheadingStyle">Results</h2>
 
                 <div className="sideBySideContainer">
                     <div className="section">
@@ -77,11 +71,12 @@ const FireNet = () => {
                     <div className="section">
                         <img src ={FireNet_results} alt="FireNet Results" width="632" height="256"></img>
                     </div>
+                </div>
 
                     <div className="extraSpace"></div>
 
                 <div className="section"> 
-                    <h2 className="subheadingStyle">Conclusion:</h2>
+                    <h2 className="subheadingStyle">Conclusion</h2>
                     <p className="paragraphStyle" >
                     Across the datasets, the model shows high precision in predicting fire, except for Dataset 3, Forest Fire Images, not being able to reach the 70% threshold on recall and F-measure. Some of the ways these metrics could be improved are through threshold tuning and cost-sensitive learning, along with an in-depth analysis of Dataset 3. Future work should focus on exploring other complex architecture, data augmentation, and training strategies. Overall, adapting to diverse data characteristics and extending the model's applicability to broader scenarios can further improve this model.
                     </p>
@@ -90,7 +85,7 @@ const FireNet = () => {
                     </p>
                 </div>
             </div>
-            <div className="gradientBackground" />
+            <div className="firenetBackground" />
         </div>
     );
 }

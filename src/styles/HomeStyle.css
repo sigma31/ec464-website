@@ -4,13 +4,15 @@
     font-size: 32px;
     font-weight: bold;
     color: #191516; /* Dark red */
+    margin-top: 4px;
 }
 
 .subheadingStyle {
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
     color: #3cab70; /* Light green */
+    margin-top: 4px;
 }
 
 .paragraphStyle {
@@ -25,6 +27,13 @@
     color: #191516; /* Dark brown */
     text-align: left;
     line-height: 1.5;
+}
+
+.codeStyle {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14.5px;
+    white-space: pre-wrap;
+    text-align: left;
 }
 
 /* Wrapper for the entire page */
@@ -50,6 +59,7 @@
     width: 100%;
     margin: 0 auto;
     margin-top: 10px;
+    flex-grow: 1;
 }
 
 .bigContainer {
@@ -66,20 +76,41 @@
     overflow: hidden; 
     background-color: aliceblue;
     padding: 20px;
-    margin: 20px auto;
+    margin: 5px auto;
     width: auto;
     max-width: 800px;
+    flex-grow: 1;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.section img {
+    max-width: 100%; /* Ensure the image does not exceed the width of its container */
+    height: auto; /* Allow the image to scale proportionally */
+    display: block; /* Ensure proper spacing around the image */
+    margin: 0 auto; /* Center the image horizontally within its container */
+}
+
+
+.bigSection {
+    border-radius: 100px; 
+    overflow: hidden; 
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    margin: 5px auto;
+    width: auto;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 .titleSection {
+    display: inline-block;
     border-radius: 50px; 
     overflow: hidden; 
     background-color: aliceblue;
-    width: auto;
+    width: 0 auto;
     margin: 0 auto;
-    margin-bottom: -20px;
-    max-width: 100px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-bottom: -5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
 
@@ -88,13 +119,33 @@
 }
 
 /* Gradient background behind the entire page */
-.gradientBackground {
+.binaryBackground {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background: linear-gradient(135deg, #044B7F, #610345); /* Gradient background */
+    opacity: 0.4; /* Adjust opacity as needed */
+}
+
+.firenetBackground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #7f0404, #ffd900); /* Gradient background */
+    opacity: 0.4; /* Adjust opacity as needed */
+}
+
+.firedataBackground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #667f04, #00fffb); /* Gradient background */
     opacity: 0.4; /* Adjust opacity as needed */
 }
 
