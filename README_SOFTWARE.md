@@ -51,6 +51,23 @@ A block diagram of the workflow of the model is given below:
 
 ![FireDataUS Workflow](https://github.com/sigma31/ec464-website/blob/resources/images/FireDataUS.png)
 
+### Website
+
+The website was created in order to provide an in depth explanation of our contributions during this project. The website is hosted using GitHub pages and can be found [here](https://sigma31.github.io/ec464-website/#/).
+
+#### Brief Overview
+
+The website was created using the Javascript programming language and the React framework. A description of the major code files can be found below:
+* Home.js - This represents the homepage of a website. It renders a container with sections containing headings, paragraphs, and a list of team members. Styles are applied using inline JavaScript objects. The content includes a welcome message, project summary, problem statement, links to learn more about different models, and a list of team members. The component exports the Home component as the default export, making it available for use in other parts of the application.
+* FireNet.js - This represents a page dedicated to detailing the FireNet model. The component renders a container with sections containing headings, paragraphs, an image depicting the model architecture, and a list of datasets used for training. The content is styled using inline JavaScript objects, ensuring consistency and readability.
+* BinaryClassifier.js - This represents a page dedicated to explaining the binary classifier model designed for fire detection in image data. The component renders a container with sections containing headings, paragraphs, lists, and an image depicting image augmentation techniques. The content is styled using inline JavaScript objects for consistent formatting and readability.
+* FireDataUS.js - This represents a page dedicated to explaining the FireData US model. The component renders a container with sections containing headings, paragraphs, lists, and images depicting data breakdown and model outcomes. Inline JavaScript objects are used for styling to ensure consistent formatting and readability.
+* DataSourceOverview.js - This represents a page providing an overview of various data sources used in the project. The component renders a table with columns for different attributes of the data sources, such as name, type, format, coverage, accessibility, notes, and URL. Inline CSS is used to style the table for consistent formatting and readability.
+
+
+
+
+
 
 
 
