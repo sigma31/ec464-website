@@ -40,12 +40,12 @@ This is the third model created by the team. It uses historical data obtained fr
 For this model, the XGBoost model from sklearn was used. 
 Here's a brief overview of the XGBoost model:
 
-*Gradient Boosting: XGBoost is based on the principle of gradient boosting, which is an ensemble learning technique that combines multiple weak learners (typically decision trees) to create a strong predictive model. It builds successive trees to correct the errors of the previous ones, with each tree learning from the residuals (the differences between the predicted and actual values).
-*Regularization: XGBoost incorporates regularization techniques to prevent overfitting, such as L1 regularization (Lasso regularization) and L2 regularization (Ridge regularization), which penalize complex models and help improve generalization performance.
-*Objective Function: XGBoost uses a customizable objective function that quantifies the difference between the predicted and actual values, allowing users to specify different loss functions based on the problem at hand (e.g., regression, classification, ranking).
-*Tree Pruning: XGBoost employs a technique called tree pruning to control the complexity of individual decision trees, preventing them from growing too deep and overfitting the training data.
-*Parallel and Distributed Computing: XGBoost is designed for efficiency and scalability, with support for parallel and distributed computing. It can leverage multiple CPU cores and distributed computing frameworks (e.g., Spark) to train models on large datasets efficiently.
-*Feature Importance: XGBoost provides built-in feature importance scores, which indicate the relative importance of each feature in predicting the target variable. This information is valuable for feature selection and understanding the underlying patterns in the data.
+* Gradient Boosting: XGBoost is based on the principle of gradient boosting, which is an ensemble learning technique that combines multiple weak learners (typically decision trees) to create a strong predictive model. It builds successive trees to correct the errors of the previous ones, with each tree learning from the residuals (the differences between the predicted and actual values).
+* Regularization: XGBoost incorporates regularization techniques to prevent overfitting, such as L1 regularization (Lasso regularization) and L2 regularization (Ridge regularization), which penalize complex models and help improve generalization performance.
+* Objective Function: XGBoost uses a customizable objective function that quantifies the difference between the predicted and actual values, allowing users to specify different loss functions based on the problem at hand (e.g., regression, classification, ranking).
+* Tree Pruning: XGBoost employs a technique called tree pruning to control the complexity of individual decision trees, preventing them from growing too deep and overfitting the training data.
+* Parallel and Distributed Computing: XGBoost is designed for efficiency and scalability, with support for parallel and distributed computing. It can leverage multiple CPU cores and distributed computing frameworks (e.g., Spark) to train models on large datasets efficiently.
+* Feature Importance: XGBoost provides built-in feature importance scores, which indicate the relative importance of each feature in predicting the target variable. This information is valuable for feature selection and understanding the underlying patterns in the data.
 
 A block diagram of the workflow of the model is given below:
 
