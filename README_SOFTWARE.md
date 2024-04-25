@@ -17,4 +17,6 @@ FireNet is neural network that is lightweight enough to be deployed on embedded 
 * Flatten: Converts the 2D feature maps produced by convolutional and pooling layers into a 1D vector
 * Dense: Fully connected layers, where the final layer has 2 outputs (Fire, NoFire)
 
+![FireNet Architecture](https://github.com/sigma31/ec464-website/blob/resources/images/FireNet.png)
+
 
