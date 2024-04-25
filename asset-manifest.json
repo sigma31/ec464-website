@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ec464-website/static/css/main.f6a3e6aa.css",
+    "main.css": "/ec464-website/static/css/main.6f5e2de1.css",
     "main.js": "/ec464-website/static/js/main.a76034a9.js",
     "static/js/453.5ecc7791.chunk.js": "/ec464-website/static/js/453.5ecc7791.chunk.js",
     "static/media/binaryclassifier_image_augmentation.png": "/ec464-website/static/media/binaryclassifier_image_augmentation.f48f15d50d06b18ea504.png",
@@ -11,12 +11,12 @@
     "static/media/binaryclassifier_conf_matrix.png": "/ec464-website/static/media/binaryclassifier_conf_matrix.a216b3da88b9a29e46da.png",
     "static/media/dryad.webp": "/ec464-website/static/media/dryad.89beee091a8fba604cbb.webp",
     "index.html": "/ec464-website/index.html",
-    "main.f6a3e6aa.css.map": "/ec464-website/static/css/main.f6a3e6aa.css.map",
+    "main.6f5e2de1.css.map": "/ec464-website/static/css/main.6f5e2de1.css.map",
     "main.a76034a9.js.map": "/ec464-website/static/js/main.a76034a9.js.map",
     "453.5ecc7791.chunk.js.map": "/ec464-website/static/js/453.5ecc7791.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6a3e6aa.css",
+    "static/css/main.6f5e2de1.css",
     "static/js/main.a76034a9.js"
   ]
 }
