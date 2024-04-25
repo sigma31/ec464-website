@@ -79,6 +79,14 @@ The routing is handled using a HashRouter to enable routing within a single-page
 
 ## Configuration
 
+Using the models requires you to utilize [Google Colaboratory](https://colab.research.google.com/).
+
+The ipynb files for each model are provided in the GitHub repository. These can be downloaded and then uploaded to Google Colaboratory using the upload feature. 
+
+![Upload notebook to Google Colaboratory](https://github.com/sigma31/ec464-website/blob/resources/images/colab.png)
+
+Once the notebook has been uploaded the datasets must be put into the appropriate Google Drive locations as specified below.
+
 1. Binary Classification Model:  
 	- Place data in /content/drive/MyDrive/FireImageData.zip - https://www.kaggle.com/datasets/phylake1337/fire-dataset 
 	- Place data in /content/drive/MyDrive/TrainingDataset.zip - https://drive.google.com/file/d/165fUt_SiS50syL8QtdON50D_uyudcsrW/view?usp=drive_link 
