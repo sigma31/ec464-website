@@ -21,9 +21,9 @@ The ML models were hosted on Google Colab and used as .ipynb files. Thus, the fo
 
 To run as intended, convert the .py files to .ipynb files as you see fit and put into Google Colab (or just put all code in one cell it will work regardless) and run all cells. Make sure that the data is in the correct place. If all is well, then the code should run and give results. 
 
-Look into the website and the code pdf's for links to the data and where to store the data in drive to make sure models run.
+Look into the website and the code PDFs for links to the data and where to store the data in drive to make sure models run.
 
-The website is the the [master](https://github.com/sigma31/ec464-website/blob/master/README.md) branch, and is written using React. The website is purely informational, but for changes:
+The website is the [master](https://github.com/sigma31/ec464-website/blob/master/README.md) branch, and is written using React. The website is purely informational, but for changes:
 - Clone the master branch 
 - Make changes
 - run `npm run deploy`
