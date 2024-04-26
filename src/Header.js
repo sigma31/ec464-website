@@ -15,6 +15,7 @@ function Header() {
           <li><Link to="/BinaryClassifier">BinaryClassifier</Link></li>
           <li><Link to="/forestdata">FireDataUS</Link></li>
           <li><Link to="/about">Sources</Link></li>
+          <li><Link to="/live-demo">Live Demo</Link></li>
           <li><img src={require('./images/dryad.webp')}/></li>
         </ul>
       </nav>
