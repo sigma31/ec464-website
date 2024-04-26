@@ -6,6 +6,8 @@ import FireNet from './components/FireNet.js';
 import BinaryClassifier from './components/BinaryClassifier.js';
 import FireDataUS from './components/FireDataUS.js';
 import Header from './Header';
+import ImageReceiver from './components/ImageReceiver';
+import LiveDemo from './components/LiveDemo.js';
 
 const AppRouter = () => {
     return (
@@ -29,6 +31,9 @@ const AppRouter = () => {
                             <li>
                                 <Link to="/About">About</Link>
                             </li>
+                            <li>
+                                <Link to="/live-demo">Live Demo</Link>
+                            </li>
                         </ul>
                     </nav>
                 </Header>
@@ -39,6 +44,7 @@ const AppRouter = () => {
                     <Route path="/firenet" element={<FireNet />} />
                     <Route path="/BinaryClassifier" element={<BinaryClassifier />} />
                     <Route path="/forestdata" element={<FireDataUS />} />
+                    <Route path="/live-demo" element={<LiveDemo />} />
                 </Routes>
             </div>
         </Router>

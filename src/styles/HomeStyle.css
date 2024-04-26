@@ -159,6 +159,6 @@ h3.subheadingStyle {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(C:\Code\ec464-website\src\images\ForestBack.webp);
+    background-image: url('../images/ForestBack.webp');
     background-size: cover;
 }
