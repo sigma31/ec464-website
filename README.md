@@ -13,7 +13,7 @@ In its current state, the models are only developed for theoretical use, and hav
 The FireNet and Binary Classification models are lightweight and meant to be deployed on edge devices, but changes may have to be made to deploy it on different systems. The FireData US model is slower and more powerful and meant for cloud purposes. However, the FireData US is not supposed to be a model that catches fires happening in real time, but a model that can predict the size of a fire at any location based on fire data from previous years.
 ## Information
 
-The ML models were hosted on Google Colab and used as .ipynb files. Thus, the formatting of the .py files may seen illogical. However, looking at .pdf files for the corresponding models should how how it was originally structured.
+The ML models were hosted on Google Colab and used as .ipynb files. Thus, the formatting of the .py files may seen illogical. However, looking at .pdf files for the corresponding models should show how it was originally structured.
 
 - The FireNet Model uses images from a zip file
 - The Binary Classification Model uses images zip file
