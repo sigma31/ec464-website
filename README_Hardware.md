@@ -46,8 +46,8 @@ Hardware Requirements for All Three models
 
 **On the BeagleBone:**
 * A traffic light kernel module indicates fire risk, adding a visual feedback mechanism
-* A .cpp userspace code file that uses OpenCV to capture an image using the camera in mpeg format
-* A shell script that runs the .cpp file and uses curl to send the image to the ngrok server every 30 seconds
+* A carmera in mpeg format to capture an image using a .cpp userspace code file that uses OpenCV
+* A ngrok server that receives a image every 30 seconds from a shell script that runs the .cpp file and uses curl
 * Makefiles for the .cpp userspace file and the kernel module
 
 **On the server side:**
