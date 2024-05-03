@@ -28,7 +28,7 @@ Hardware Requirements for All Three models
 		
 **FireDataUS Model Platform**
 * Python
-	*Tensorflow
+	* Tensorflow
 	* Image Augmentation and Generation
 	* Keras
 	* Numpy, Scipy
