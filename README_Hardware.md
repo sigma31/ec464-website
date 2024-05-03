@@ -3,7 +3,7 @@ Hardware Requirements for All Three models
 * Computer: A machine with CPU, GPU, and storage for deep learning model training and testing
 * Internet Connection: For downloading large datasets and accessing cloud resources
 
-
+/n
 **FireNet Model Platforms**
 * Python
 	* TensorFlow / Keras: For building and training deep learning models.
