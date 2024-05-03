@@ -4,7 +4,7 @@ Hardware Requirements for All Three models
 * Internet Connection: For downloading large datasets and accessing cloud resources
 
 
-** FireNet Model Platforms**
+**FireNet Model Platforms**
 * Python
 	* TensorFlow / Keras: For building and training deep learning models.
 	* OpenCV: For image processing.
@@ -26,7 +26,7 @@ Hardware Requirements for All Three models
 		
 		
 		
-** FireDataUS Model Platform**
+**FireDataUS Model Platform**
 * Python
 	*Tensorflow
 	* Image Augmentation and Generation
