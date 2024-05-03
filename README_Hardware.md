@@ -1,7 +1,7 @@
 ## Tool Requirements for Running the Three Models:
 Hardware Requirements for All Three models
-*Computer: A machine with CPU, GPU, and storage for deep learning model training and testing
-*Internet Connection: For downloading large datasets and accessing cloud resources
+* Computer: A machine with CPU, GPU, and storage for deep learning model training and testing
+* Internet Connection: For downloading large datasets and accessing cloud resources
 
 
 **FireNet Model Platforms**
