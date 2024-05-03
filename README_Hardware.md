@@ -42,7 +42,7 @@ Hardware Requirements for All Three models
 
 
 
-#### For the Demo:
+## For the Demo:
 
 **On the BeagleBone:**
 * A traffic light kernel module indicates fire risk, adding a visual feedback mechanism
