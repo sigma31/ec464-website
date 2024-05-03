@@ -54,6 +54,7 @@ Hardware Requirements for All Three models
 * A Flask application that receives an image, passes it through the ML model and sends the prediction back to the BeagleBone as part of the response
 
 #### Technical Details/Setup:
+![Schmatic](https://drive.google.com/file/d/1jApP6RFEn3w7kXia2cz8iFjxyUz_CIeG/view?usp=sharing)
 
 **Server Side:**
 * Run the Flask server.
